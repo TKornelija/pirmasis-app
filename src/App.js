@@ -3,6 +3,7 @@ import './App.css';
 // import Komp6, { Komp5 } from './Komponentai/Komp6'
 // import Paslaugos from './Paslaugos/Paslaugos';
 import Svetaine from './Uzduotis03/Svetaine'
+import Studentai from './Uzduotis04/Studentai';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
        */}
 
        <Svetaine/>
+       <Studentai/>
 
       </header>
     </div>
