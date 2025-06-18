@@ -4,7 +4,8 @@ import './App.css';
 // import Paslaugos from './Paslaugos/Paslaugos';
 // import Svetaine from './Uzduotis03/Svetaine'
 // import Studentai from './Uzduotis04/Studentai';
-import Kintamieji from './Uzduotis05/Kintamieji';
+// import Kintamieji from './Uzduotis05/Kintamieji';
+import Masyvas from './Uzduotis06/Masyvas';
 
 function App() {
   return (
@@ -23,7 +24,9 @@ function App() {
        <Studentai/>
        */}
 
-       <Kintamieji/>
+       {/*<Kintamieji/>
+       */}
+       <Masyvas/>
 
       </header>
     </div>
