@@ -2,8 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 // import Komp6, { Komp5 } from './Komponentai/Komp6'
 // import Paslaugos from './Paslaugos/Paslaugos';
-import Svetaine from './Uzduotis03/Svetaine'
-import Studentai from './Uzduotis04/Studentai';
+// import Svetaine from './Uzduotis03/Svetaine'
+// import Studentai from './Uzduotis04/Studentai';
+import Kintamieji from './Uzduotis05/Kintamieji';
 
 function App() {
   return (
@@ -18,8 +19,11 @@ function App() {
         <Komp6/>
        */}
 
-       <Svetaine/>
+       {/*<Svetaine/>
        <Studentai/>
+       */}
+
+       <Kintamieji/>
 
       </header>
     </div>

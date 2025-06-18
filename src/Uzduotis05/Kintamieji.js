@@ -16,5 +16,21 @@ const Kintamieji =() => {
     const vidurkis= ()=>{
         return ((skaicius1 + skaicius2 + skaicius3) / 3)
     }
-}
+
+    const rezultatai =()=>{
+        return(
+            <>
+            <div>
+                <p>Skaiciai: {skaicius1}, {skaicius2}, {skaicius3}</p>
+                <p>Didziausias skaicius: {didziausiasSk()}</p>
+                <p>Maziausias skaicius: {maziausiasSk()}</p>
+                <p>Skaiciu vidurkis: {vidurkis().toFixed(2)}</p>
+            </div>
+            </>
+        );
+    };
+    return rezultatai()
+};
+
+export default Kintamieji
 
