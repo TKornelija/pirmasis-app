@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import Komp6, { Komp5 } from './Komponentai/Komp6'
-import Paslaugos from './Paslaugos/Paslaugos';
+// import Komp6, { Komp5 } from './Komponentai/Komp6'
+// import Paslaugos from './Paslaugos/Paslaugos';
+import Svetaine from './Uzduotis03/Svetaine'
 
 function App() {
   return (
@@ -9,10 +10,14 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
        
+        {/*
         <Paslaugos/>
         <Komp4/>
         <Komp5/>
         <Komp6/>
+       */}
+
+       <Svetaine/>
 
       </header>
     </div>

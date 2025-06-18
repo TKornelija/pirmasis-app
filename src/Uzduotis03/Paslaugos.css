@@ -1,0 +1,12 @@
+.Blokai{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.blocks {
+  padding: 10px;
+  border: 2px solid white;
+  text-align: center;
+  margin: 20px;
+}
