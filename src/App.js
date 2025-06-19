@@ -8,7 +8,8 @@ import './App.css';
 // import Masyvas from './Uzduotis06/Masyvas';
 // import Skaiciai from './Uzduotis07/Skaiciai'
 // import Prekes from './Uzduotis08/Prekes';
-import Child from './Uzduotis09/Child';
+// import Child from './Uzduotis09/Child';
+import Zodziai from './Uzduotis10/Zodziai';
 
 function App() {
   return (
@@ -31,8 +32,9 @@ function App() {
        <Masyvas/>
        <Skaiciai/>
        <Prekes/>
-       */}
        <Child/>
+       */}
+      <Zodziai/>
 
       </header>
     </div>
