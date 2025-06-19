@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Knyga from './Uzduotis11/Knyga';
 // import Komp6, { Komp5 } from './Komponentai/Komp6'
 // import Paslaugos from './Paslaugos/Paslaugos';
 // import Svetaine from './Uzduotis03/Svetaine'
@@ -9,7 +10,8 @@ import './App.css';
 // import Skaiciai from './Uzduotis07/Skaiciai'
 // import Prekes from './Uzduotis08/Prekes';
 // import Child from './Uzduotis09/Child';
-import Zodziai from './Uzduotis10/Zodziai';
+// import Zodziai from './Uzduotis10/Zodziai';
+import Knygynas from './Uzduotis11/Knygynas';
 
 function App() {
   return (
@@ -33,8 +35,9 @@ function App() {
        <Skaiciai/>
        <Prekes/>
        <Child/>
+       <Zodziai/>
        */}
-      <Zodziai/>
+      <Knygynas/>
 
       </header>
     </div>
