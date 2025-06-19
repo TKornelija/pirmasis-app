@@ -7,7 +7,8 @@ import './App.css';
 // import Kintamieji from './Uzduotis05/Kintamieji';
 // import Masyvas from './Uzduotis06/Masyvas';
 // import Skaiciai from './Uzduotis07/Skaiciai'
-import Prekes from './Uzduotis08/Prekes';
+// import Prekes from './Uzduotis08/Prekes';
+import Child from './Uzduotis09/Child';
 
 function App() {
   return (
@@ -29,8 +30,9 @@ function App() {
        {/*<Kintamieji/>
        <Masyvas/>
        <Skaiciai/>
-       */}
        <Prekes/>
+       */}
+       <Child/>
 
       </header>
     </div>

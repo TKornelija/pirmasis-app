@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    padding: 0 16px;
+    width: 300px;
+    margin: 10px;
+    background-color: rgb(68, 187, 192);
+}
+.container h4{
+    color: black;
+}
