@@ -12,7 +12,8 @@ import Knyga from './Uzduotis11/Knyga';
 // import Child from './Uzduotis09/Child';
 // import Zodziai from './Uzduotis10/Zodziai';
 // import Knygynas from './Uzduotis11/Knygynas';
-import ParentComp from './Uzduotis12/ParentComp';
+// import ParentComp from './Uzduotis12/ParentComp';
+import Projektai from './Uzduotis13/Projektai';
 
 function App() {
   return (
@@ -38,8 +39,9 @@ function App() {
        <Child/>
        <Zodziai/>
        <Knygynas/>
+       <ParentComp/>
        */}
-      <ParentComp/>
+      <Projektai/>
 
       </header>
     </div>

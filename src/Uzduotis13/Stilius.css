@@ -1,0 +1,10 @@
+.projektu-list{
+    background-color: aliceblue;
+    color: black;
+    border: 5px solid rgb(6, 163, 225);
+    padding: 10px 40px;
+}
+.projektai{
+    color: rgb(6, 163, 225);
+    font-style: italic;
+}
