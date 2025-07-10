@@ -1,0 +1,22 @@
+.prekes-blokas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid rgb(13, 143, 230);
+    margin: 13px;
+    padding: 0 20px;
+    background-color: grey;
+}
+.prekiu-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.prekes-blokas h3{
+    color: black;
+}
+
+.prekiu-wrapper h2{
+    color: rgb(13, 143, 230);
+}

@@ -14,7 +14,10 @@ import Knyga from './Uzduotis11/Knyga';
 // import Knygynas from './Uzduotis11/Knygynas';
 // import ParentComp from './Uzduotis12/ParentComp';
 // import Projektai from './Uzduotis13/Projektai';
-import Navbar from './Uzduotis14/Navbar';
+// import Navbar from './Uzduotis14/Navbar';
+import Komp7 from './Uzduotis02/Komp7';
+import Komp8 from './Uzduotis02/Komp8';
+import Komp9 from './Uzduotis02/Komp9';
 
 function App() {
   return (
@@ -42,8 +45,11 @@ function App() {
        <Knygynas/>
        <ParentComp/>
        <Projektai/>
+       <Navbar/>
        */}
-      <Navbar/>
+      <Komp7/>
+      <Komp8/>
+      <Komp9/>
 
       </header>
     </div>
